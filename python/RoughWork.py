@@ -1,3 +1,5 @@
+# Use this to create Anki cards
+
 # print(1)
 # print("\t\t\t\t\t\t\t\t\t\t".strip()=='')
 # print(2)
@@ -57,5 +59,15 @@
 # l = [0, 2, 2, 3, 8, 100, None, -2]
 # print([i for i in l])
 
-legacy_data = {1: ["A", "E", "I", "O", "U"]}
-print(legacy_data.keys())
+# legacy_data = {1: ["A", "E", "I", "O", "U"]}
+# print(legacy_data.keys())
+
+# s = "subject"
+# print(s[s.find('u'):])
+# p = "square"
+# print(p[p.find('qu')+2:])
+
+import secrets
+
+r = secrets.choice(range(100, 150))
+print(r)
