@@ -30,7 +30,7 @@ def cipher_text(plain_text):
 
     r, c = rectangle_size(len(plain_text))
     # print(r, c)
-    # Addiing spaces when need using `ljust` string method
+    # Adding spaces when need using `ljust` string method
     plain_text = plain_text.ljust(r*c)
     encoded = ''
     # rectangle = [plain_text[i*c: (i+1)*c] for i in range(r)]

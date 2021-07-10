@@ -67,7 +67,21 @@
 # p = "square"
 # print(p[p.find('qu')+2:])
 
-import secrets
+# import secrets
 
-r = secrets.choice(range(100, 150))
-print(r)
+# r = secrets.choice(range(100, 150))
+# print(r)
+
+# import re
+
+# plain_text = "@1,%!" + "This is fun!"
+# # plain_text = ''
+# plain_text = ''.join(re.findall(r'[a-z0-9]*', plain_text, re.I))
+# plain_text.lower()
+# print((plain_text))
+# l = list(range(5))
+# print(l)
+
+
+# def rectangle_cipher(plain_text):
+#     return " ".join("".join(plain_text[j * c + i] for j in range(r)) for i in range(c))
